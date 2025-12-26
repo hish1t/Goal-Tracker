@@ -1,10 +1,5 @@
-import java.awt.BorderLayout;
-import java.awt.GridLayout;
-
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import java.awt.*;
+import javax.swing.*;
 
 public class GoalCreateWin {
 
@@ -17,7 +12,7 @@ public class GoalCreateWin {
 		panel.setLayout(new GridLayout(0, 1));
 		
 		frame.add(panel, BorderLayout.CENTER);
-		frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		frame.setTitle("Create new goal");
 		frame.pack();
 		frame.setVisible(true);

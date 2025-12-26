@@ -1,7 +1,4 @@
 import java.sql.*;
-import java.time.LocalDate;
-
-import javax.swing.*;
 
 public class Main {
 	
@@ -20,7 +17,7 @@ public class Main {
 //		
 //		System.out.println(result);
 		
-		GUI gui = new GUI();
+		new GUI();
 		
 		
 
