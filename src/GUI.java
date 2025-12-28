@@ -22,6 +22,7 @@ public class GUI {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setTitle("Goal's Tracker");
 		frame.pack();
+		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
 		
 		createGoal.addActionListener(e -> NewGoalWin());
